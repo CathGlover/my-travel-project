@@ -1,0 +1,301 @@
+:root {
+  --main-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: #272044;
+  margin: 50px;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 0 auto;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0 auto;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 auto;
+  background-color: white;
+  text-decoration: none;
+  color: #272044;
+  padding: 16px 32px;
+  display: inline-block;
+  margin: 20px;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+    url("../images/venice-by-gondola.jpg");
+  background-color: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 200px 0px;
+  border-radius: 8px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+  border-radius: 8px;
+}
+
+.card-header.grid {
+  grid-gap: 0px;
+}
+.card-body {
+  padding: 30px;
+}
+
+.card-footer {
+  padding: 0 30px 30px;
+}
+
+.embed {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+  aspect-ratio: 1 /1;
+  border-radius: 8px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-gap: 15px;
+}
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.9),
+      rgba(39, 32, 68, 0.9)
+    ),
+    url("../images/row-of-gondola.jpg");
+  background-color: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 8px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer li {
+  list-style: none;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0 auto;
+}
+
+footer a {
+  color: white;
+  opacity: 0.7;
+  margin: 0 auto;
+  padding: 0;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  line-height: 24px;
+}
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 100px;
+  border-radius: 8px;
+}
+
+.responsive-image:hover {
+  transition: filter 150ms ease-in-out;
+  transform: scale(1.1);
+}
+
+.img-responsive {
+  border-radius: 8px;
+}
+
+.text-center {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.grid-3-column-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.grid-2-column {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-3-column {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-2-rpw {
+  grid-template-rows: 1fr 1fr;
+}
+
+main {
+  background-color: white;
+}
+
+.img-responsive {
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+main h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  letter-spacing: 5px;
+  color: #272044;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: 272044;
+  margin: px;
+}
+
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 0;
+}
+main p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #272044;
+  opacity: 0.7;
+}
+
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 3px;
+  padding: 16px;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  background-color: #462cb3;
+}
+.secondary-section {
+  background: #f8f8f8;
+}
+
+.instagram-embed.grid {
+  grid-gap: 0;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  body {
+    margin: 15px;
+  }
+  header {
+    padding: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 30px;
+  }
+
+  .cafe-image {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
+  }
+
+  .responsive-image:hover {
+    transform: none;
+  }
+
+  .header-small,
+  .card,
+  footer {
+    text-align: center;
+  }
+}
